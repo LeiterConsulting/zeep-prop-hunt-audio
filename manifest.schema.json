@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/LeiterConsulting/zeep-prop-hunt-audio/blob/main/manifest.schema.json",
+  "title": "Zeep Prop Hunt audio-pack manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifestVersion", "pack", "assets"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "manifestVersion": { "const": 1 },
+    "pack": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "version", "channel"],
+      "properties": {
+        "id": { "const": "zeep-prop-hunt-audio-core" },
+        "version": { "type": "string", "pattern": "^(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)\\.(0|[1-9][0-9]*)(?:-[0-9A-Za-z.-]+)?$" },
+        "channel": { "enum": ["development", "stable"] }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "category", "role", "file", "sha256", "bytes", "durationMs", "channels", "sampleRateHz", "author", "license", "source", "attribution", "transcript", "caption", "tags"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$", "maxLength": 128 },
+          "category": { "enum": ["taunt", "weapon", "impact", "player", "disguise", "movement", "ui", "round"] },
+          "role": { "enum": ["all", "prop", "hunter", "none"] },
+          "file": { "type": "string", "pattern": "^audio/[a-z0-9_./-]+\\.(ogg|wav)$" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "bytes": { "type": "integer", "minimum": 1 },
+          "durationMs": { "type": "integer", "minimum": 1, "maximum": 30000 },
+          "channels": { "type": "integer", "minimum": 1, "maximum": 2 },
+          "sampleRateHz": { "type": "integer", "minimum": 8000, "maximum": 192000 },
+          "author": { "type": "string", "minLength": 1 },
+          "license": { "enum": ["CC0-1.0", "CC-BY-4.0"] },
+          "source": { "type": ["string", "null"] },
+          "attribution": { "type": "string" },
+          "transcript": { "type": ["string", "null"] },
+          "caption": { "type": ["string", "null"] },
+          "tags": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9_-]+$" }, "uniqueItems": true }
+        }
+      }
+    }
+  }
+}
+

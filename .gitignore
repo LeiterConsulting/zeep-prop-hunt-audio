@@ -1,0 +1,8 @@
+dist/
+work/
+__pycache__/
+*.pyc
+*.zip
+*.tmp
+.DS_Store
+Thumbs.db

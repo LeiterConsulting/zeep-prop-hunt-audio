@@ -1,0 +1,11 @@
+{
+  "$schema": "./manifest.schema.json",
+  "manifestVersion": 1,
+  "pack": {
+    "id": "zeep-prop-hunt-audio-core",
+    "version": "0.0.0-dev",
+    "channel": "development"
+  },
+  "assets": []
+}
+
