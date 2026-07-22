@@ -20,6 +20,7 @@ Priority meanings:
 | P0 | `player.prop_hurt.*` | 3-5 | Short damage reactions. |
 | P0 | `player.eliminated.*` | 2-4 | Elimination at the player's position. |
 | P0 | `disguise.apply.*` | 2-4 | Nearby transformation feedback. |
+| P0 | `disguise.remove.*` | 1-3 | Disguise removal or reset feedback. |
 | P1 | `movement.prop_lock.*` | 1-2 | Orientation/position lock. |
 | P1 | `movement.prop_unlock.*` | 1-2 | Return to free movement. |
 | P1 | `footstep.hunter.*` | 6-10 | Only if suitable installed Zeepkist events cannot be invoked. |
@@ -60,12 +61,14 @@ Priority meanings:
 | P0 | `round.prop_win.*` | 1-2 | Props victory sting. |
 | P0 | `round.hunter_win.*` | 1-2 | Hunters victory sting. |
 | P0 | `round.local_eliminated.*` | 1 | Spectator transition. |
+| P1 | `round.local_win.*` | 1 | Optional local-player victory announcement. |
+| P1 | `round.local_loss.*` | 1 | Optional local-player defeat announcement. |
 | P1 | `round.thirty_seconds.*` | 1 | Time warning. |
 | P1 | `round.ten_seconds.*` | 1 | Final warning. |
+| P1 | `round.time_up.*` | 1 | Round timer expired. |
 | P1 | `round.last_prop.*` | 1 | Optional mode announcement. |
 | P1 | `round.overtime.*` | 1 | If overtime is implemented. |
 | P1 | `round.cancelled.*` | 1 | Session cannot continue. |
 | P2 | `round.ambient_stinger.*` | 3-6 | Sparse non-positional tension cues. |
 
 Every spoken announcement needs transcript and caption metadata. Before redistributing movement or environmental audio, determine whether an appropriate event can be invoked from the player's Zeepkist installation instead.
-

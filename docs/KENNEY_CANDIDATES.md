@@ -69,7 +69,7 @@ Generate a local, ignored soundboard from the installed Kenney collection:
 python tools/build_kenney_audition.py --kenney-root "D:\Kenney Assets\Kenney Game Assets All-in-1 3.6.0" --open
 ```
 
-The tool verifies every selected pack's bundled CC0 license, copies only the shortlist into ignored `work/`, measures basic audio properties, and opens a grouped listening page. Each clip can be marked **Keep**, **Maybe**, or **Reject**, and decisions can be exported as JSON. Nothing is copied into the public `audio/` catalog by this command.
+The tool verifies every selected pack's bundled CC0 license, copies only the shortlist into ignored `work/`, measures basic audio properties, and opens a grouped assignment-review page. Each clip has a proposed gameplay purpose and can be approved for that purpose or disapproved as either **Poor for Prop Hunt** or **Suggest for a different purpose**. Alternate assignments use the complete purpose catalog. Progress persists locally, and submitting downloads `kenney-audio-review.json` with decisions, reasons, alternate purposes, notes, source paths, and measured metadata. Nothing is copied into the public `audio/` catalog by this command.
 
 ## Deferred families
 
@@ -77,4 +77,3 @@ The tool verifies every selected pack's bundled CC0 license, copies only the sho
 - Foley is reserved for later prop-specific movement polish.
 - Realistic/military Voiceover phrases are excluded unless they fit the final playful tone.
 - Music loops, casino sounds, and unrelated RPG/environmental sounds are out of scope for the core gameplay pass.
-
