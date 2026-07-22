@@ -1,0 +1,267 @@
+{
+  "sourceCollection": "Kenney Game Assets All-in-1 3.6.0",
+  "sourceLicense": "CC0-1.0",
+  "reviewSchemaVersion": 1,
+  "reviewSubmittedAt": "2026-07-22T18:25:52.448Z",
+  "reviewSummary": {
+    "total": 115,
+    "reviewed": 115,
+    "approved": 42,
+    "disapproved": 73,
+    "unreviewed": 0
+  },
+  "selected": [
+    {
+      "source": "Audio/Digital Audio/Audio/phaserUp2.ogg",
+      "purpose": "disguise.apply",
+      "assetId": "disguise.apply.phaser_up2",
+      "file": "audio/disguise/apply/phaser_up2.ogg"
+    },
+    {
+      "source": "Audio/Digital Audio/Audio/phaserUp4.ogg",
+      "purpose": "disguise.apply",
+      "assetId": "disguise.apply.phaser_up4",
+      "file": "audio/disguise/apply/phaser_up4.ogg"
+    },
+    {
+      "source": "Audio/Digital Audio/Audio/phaserUp6.ogg",
+      "purpose": "disguise.apply",
+      "assetId": "disguise.apply.phaser_up6",
+      "file": "audio/disguise/apply/phaser_up6.ogg"
+    },
+    {
+      "source": "Audio/Digital Audio/Audio/phaserUp7.ogg",
+      "purpose": "disguise.apply",
+      "assetId": "disguise.apply.phaser_up7",
+      "file": "audio/disguise/apply/phaser_up7.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/select_005.ogg",
+      "purpose": "disguise.preview",
+      "assetId": "disguise.preview.select_005",
+      "file": "audio/disguise/preview/select_005.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/select_006.ogg",
+      "purpose": "disguise.preview",
+      "assetId": "disguise.preview.select_006",
+      "file": "audio/disguise/preview/select_006.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/select_007.ogg",
+      "purpose": "disguise.preview",
+      "assetId": "disguise.preview.select_007",
+      "file": "audio/disguise/preview/select_007.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/select_008.ogg",
+      "purpose": "disguise.preview",
+      "assetId": "disguise.preview.select_008",
+      "file": "audio/disguise/preview/select_008.ogg"
+    },
+    {
+      "source": "Audio/Digital Audio/Audio/phaserDown1.ogg",
+      "purpose": "disguise.remove",
+      "assetId": "disguise.remove.phaser_down1",
+      "file": "audio/disguise/remove/phaser_down1.ogg"
+    },
+    {
+      "source": "Audio/Digital Audio/Audio/phaserDown3.ogg",
+      "purpose": "disguise.remove",
+      "assetId": "disguise.remove.phaser_down3",
+      "file": "audio/disguise/remove/phaser_down3.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactGlass_light_000.ogg",
+      "purpose": "impact.glass",
+      "assetId": "impact.glass.impact_glass_light_000",
+      "file": "audio/impact/glass/impact_glass_light_000.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactGlass_light_003.ogg",
+      "purpose": "impact.glass",
+      "assetId": "impact.glass.impact_glass_light_003",
+      "file": "audio/impact/glass/impact_glass_light_003.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactGlass_light_004.ogg",
+      "purpose": "impact.glass",
+      "assetId": "impact.glass.impact_glass_light_004",
+      "file": "audio/impact/glass/impact_glass_light_004.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactMetal_light_001.ogg",
+      "purpose": "impact.metal",
+      "assetId": "impact.metal.impact_metal_light_001",
+      "file": "audio/impact/metal/impact_metal_light_001.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactMetal_light_002.ogg",
+      "purpose": "impact.metal",
+      "assetId": "impact.metal.impact_metal_light_002",
+      "file": "audio/impact/metal/impact_metal_light_002.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactMetal_light_004.ogg",
+      "purpose": "impact.metal",
+      "assetId": "impact.metal.impact_metal_light_004",
+      "file": "audio/impact/metal/impact_metal_light_004.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactSoft_medium_000.ogg",
+      "purpose": "impact.prop",
+      "assetId": "impact.prop.impact_soft_medium_000",
+      "file": "audio/impact/prop/impact_soft_medium_000.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactSoft_medium_002.ogg",
+      "purpose": "impact.prop",
+      "assetId": "impact.prop.impact_soft_medium_002",
+      "file": "audio/impact/prop/impact_soft_medium_002.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactSoft_medium_004.ogg",
+      "purpose": "impact.prop",
+      "assetId": "impact.prop.impact_soft_medium_004",
+      "file": "audio/impact/prop/impact_soft_medium_004.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactWood_medium_000.ogg",
+      "purpose": "impact.wood",
+      "assetId": "impact.wood.impact_wood_medium_000",
+      "file": "audio/impact/wood/impact_wood_medium_000.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactWood_medium_001.ogg",
+      "purpose": "impact.wood",
+      "assetId": "impact.wood.impact_wood_medium_001",
+      "file": "audio/impact/wood/impact_wood_medium_001.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactWood_medium_003.ogg",
+      "purpose": "impact.wood",
+      "assetId": "impact.wood.impact_wood_medium_003",
+      "file": "audio/impact/wood/impact_wood_medium_003.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactWood_medium_004.ogg",
+      "purpose": "impact.wood",
+      "assetId": "impact.wood.impact_wood_medium_004",
+      "file": "audio/impact/wood/impact_wood_medium_004.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactGeneric_light_000.ogg",
+      "purpose": "impact.world",
+      "assetId": "impact.world.impact_generic_light_000",
+      "file": "audio/impact/world/impact_generic_light_000.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactGeneric_light_002.ogg",
+      "purpose": "impact.world",
+      "assetId": "impact.world.impact_generic_light_002",
+      "file": "audio/impact/world/impact_generic_light_002.ogg"
+    },
+    {
+      "source": "Audio/Impact Sounds/Audio/impactGeneric_light_003.ogg",
+      "purpose": "impact.world",
+      "assetId": "impact.world.impact_generic_light_003",
+      "file": "audio/impact/world/impact_generic_light_003.ogg"
+    },
+    {
+      "source": "Audio/Voiceover Pack/Audio (Female)/ready.ogg",
+      "purpose": "round.hiding_start",
+      "assetId": "round.hiding_start.female_ready",
+      "file": "audio/round/hiding_start/female_ready.ogg"
+    },
+    {
+      "source": "Audio/Voiceover Pack/Audio (Male)/ready.ogg",
+      "purpose": "round.hiding_start",
+      "assetId": "round.hiding_start.male_ready",
+      "file": "audio/round/hiding_start/male_ready.ogg"
+    },
+    {
+      "source": "Audio/Voiceover Pack/Audio (Female)/you_win.ogg",
+      "purpose": "round.local_win",
+      "assetId": "round.local_win.female_you_win",
+      "file": "audio/round/local_win/female_you_win.ogg"
+    },
+    {
+      "source": "Audio/Voiceover Pack/Audio (Male)/you_win.ogg",
+      "purpose": "round.local_win",
+      "assetId": "round.local_win.male_you_win",
+      "file": "audio/round/local_win/male_you_win.ogg"
+    },
+    {
+      "source": "Audio/Voiceover Pack/Audio (Female)/go.ogg",
+      "purpose": "round.seeking_start",
+      "assetId": "round.seeking_start.female_go",
+      "file": "audio/round/seeking_start/female_go.ogg"
+    },
+    {
+      "source": "Audio/Voiceover Pack/Audio (Male)/go.ogg",
+      "purpose": "round.seeking_start",
+      "assetId": "round.seeking_start.male_go",
+      "file": "audio/round/seeking_start/male_go.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/confirmation_001.ogg",
+      "purpose": "ui.accept",
+      "assetId": "ui.accept.confirmation_001",
+      "file": "audio/ui/accept/confirmation_001.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/back_004.ogg",
+      "purpose": "ui.back",
+      "assetId": "ui.back.back_004",
+      "file": "audio/ui/back/back_004.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/error_004.ogg",
+      "purpose": "ui.error",
+      "assetId": "ui.error.error_004",
+      "file": "audio/ui/error/error_004.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/error_006.ogg",
+      "purpose": "ui.error",
+      "assetId": "ui.error.error_006",
+      "file": "audio/ui/error/error_006.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/error_008.ogg",
+      "purpose": "ui.error",
+      "assetId": "ui.error.error_008",
+      "file": "audio/ui/error/error_008.ogg"
+    },
+    {
+      "source": "Audio/Interface Sounds/Audio/toggle_004.ogg",
+      "purpose": "ui.ready",
+      "assetId": "ui.ready.toggle_004",
+      "file": "audio/ui/ready/toggle_004.ogg"
+    },
+    {
+      "source": "Audio/Sci-Fi Sounds/Audio/laserSmall_000.ogg",
+      "purpose": "weapon.fire",
+      "assetId": "weapon.fire.laser_small_000",
+      "file": "audio/weapon/fire/laser_small_000.ogg"
+    },
+    {
+      "source": "Audio/Sci-Fi Sounds/Audio/laserSmall_001.ogg",
+      "purpose": "weapon.fire",
+      "assetId": "weapon.fire.laser_small_001",
+      "file": "audio/weapon/fire/laser_small_001.ogg"
+    },
+    {
+      "source": "Audio/Sci-Fi Sounds/Audio/laserSmall_002.ogg",
+      "purpose": "weapon.fire",
+      "assetId": "weapon.fire.laser_small_002",
+      "file": "audio/weapon/fire/laser_small_002.ogg"
+    },
+    {
+      "source": "Audio/Sci-Fi Sounds/Audio/laserSmall_003.ogg",
+      "purpose": "weapon.fire",
+      "assetId": "weapon.fire.laser_small_003",
+      "file": "audio/weapon/fire/laser_small_003.ogg"
+    }
+  ]
+}

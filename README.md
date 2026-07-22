@@ -1,17 +1,17 @@
 # Zeep Prop Hunt Audio
 
-Community-maintained audio content for the unofficial **Prop Hunt mod for Zeepkist**.
+Maintainer-curated audio content for the unofficial **Prop Hunt mod for Zeepkist**.
 
 This repository exists so taunts and gameplay sounds can be reviewed, licensed, versioned, and released independently from the mod itself. The Prop Hunt mod will be distributed through **Modkist**; its source code and binaries do not live in this repository.
 
-> **Current status:** repository bootstrap. There is not yet a public core audio-pack release. Players should not clone this repository into their game installation.
+> **Current status:** pre-release development catalog. The first curated pass contains 42 reviewed Kenney CC0 assets across 16 gameplay events. There is not yet a public core audio-pack release, and players should not clone this repository into their game installation.
 
 ## Why audio has its own repository
 
 Prop Hunt needs every player in a lobby to resolve the same stable sound IDs. A central repository gives the project:
 
 - clear authorship, licensing, transcripts, and attribution for every clip;
-- pull-request review for new community submissions;
+- a narrow, auditable set of maintainer-selected sources;
 - automated checks for paths, metadata, formats, duration, and hashes;
 - immutable, versioned release packs rather than mutable files from `main`;
 - a canonical manifest the mod can compare with the locally installed pack;
@@ -28,7 +28,7 @@ The mod is expected to check for an updated release manifest asynchronously when
 - Round announcements and victory/defeat stings
 - Captions, transcripts, attribution, licenses, manifests, and build tooling
 
-The initial inventory and priority list are in [docs/SOUND_INVENTORY.md](docs/SOUND_INVENTORY.md). Technical IDs and pack rules are in [docs/TECHNICAL_SPEC.md](docs/TECHNICAL_SPEC.md).
+The initial inventory and priority list are in [docs/SOUND_INVENTORY.md](docs/SOUND_INVENTORY.md). Technical IDs and pack rules are in [docs/TECHNICAL_SPEC.md](docs/TECHNICAL_SPEC.md). The measured Kenney shortlist and local listening workflow are in [docs/KENNEY_CANDIDATES.md](docs/KENNEY_CANDIDATES.md).
 
 This repository does **not** contain:
 
@@ -37,25 +37,15 @@ This repository does **not** contain:
 - map files or Steam Workshop levels;
 - audio without documented redistribution rights.
 
-## Submit a sound
+## Contribution policy
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) and [LICENSES.md](LICENSES.md) first.
+This repository does **not** accept unsolicited audio files, audio links, voice recordings, or pull requests that add sounds. A license checkbox cannot establish authorship, and operating a public upload queue would create avoidable copyright and moderation risk.
 
-1. Open an **Audio submission** issue with the clip's origin, author, license, transcript, and content disclosures.
-2. Wait for an initial provenance/content check before spending time preparing a pull request.
-3. Submit a pull request containing the lossless master and its complete manifest entry.
-4. Automation and maintainers review the asset. Approved submissions enter a future release; published releases are never silently changed.
+Maintainers select audio from a deliberately narrow set of sources with independently verifiable rights, retain provenance records, and publish only the files needed by the mod. At present the intended baseline is selected material from Kenney's CC0 asset collections. The whole upstream collection will not be redistributed.
 
-Opening an issue does not guarantee acceptance. The project may reject audio that is legally unclear, excessively loud or long, hard to understand, disruptive in repeated play, or inconsistent with the mod's content policy.
+The current development catalog is only 42 selected files (approximately 390 KiB) from five Kenney source packs. Exact selection provenance is recorded in [`sources/kenney-core-selection.json`](sources/kenney-core-selection.json), and the corresponding upstream license notices are retained under [`licenses/kenney/`](licenses/kenney/).
 
-## Review schedule
-
-- New submission issues should receive an initial acknowledgement within **seven days**.
-- Maintainers normally perform full listening/provenance review in a **biweekly batch**.
-- Release packs are published when a coherent group of approved sounds is ready, rather than on a fixed calendar.
-- Security, rights-holder, and licensing-removal reports are handled as soon as practical and do not wait for the normal review batch.
-
-These are service goals for a volunteer project, not guaranteed deadlines. Queue status or maintainer availability will be posted in the repository when the cadence changes.
+Documentation, validation, release tooling, captions, and corrections are still welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Use the content-problem issue form to report a technical, attribution, or rights concern about something already published.
 
 ## Player guide
 

@@ -4,7 +4,7 @@
   "title": "Zeep Prop Hunt audio-pack manifest",
   "type": "object",
   "additionalProperties": false,
-  "required": ["manifestVersion", "pack", "assets"],
+  "required": ["manifestVersion", "pack", "assets", "events"],
   "properties": {
     "$schema": { "type": "string" },
     "manifestVersion": { "const": 1 },
@@ -43,7 +43,16 @@
           "tags": { "type": "array", "items": { "type": "string", "pattern": "^[a-z0-9_-]+$" }, "uniqueItems": true }
         }
       }
+    },
+    "events": {
+      "type": "object",
+      "propertyNames": { "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$" },
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": { "type": "string", "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$" }
+      }
     }
   }
 }
-
