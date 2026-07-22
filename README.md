@@ -4,7 +4,7 @@ Maintainer-curated audio content for the unofficial **Prop Hunt mod for Zeepkist
 
 This repository exists so taunts and gameplay sounds can be reviewed, licensed, versioned, and released independently from the mod itself. The Prop Hunt mod will be distributed through **Modkist**; its source code and binaries do not live in this repository.
 
-> **Current status:** repository bootstrap. There is not yet a public core audio-pack release. Players should not clone this repository into their game installation.
+> **Current status:** pre-release development catalog. The first curated pass contains 42 reviewed Kenney CC0 assets across 16 gameplay events. There is not yet a public core audio-pack release, and players should not clone this repository into their game installation.
 
 ## Why audio has its own repository
 
@@ -42,6 +42,8 @@ This repository does **not** contain:
 This repository does **not** accept unsolicited audio files, audio links, voice recordings, or pull requests that add sounds. A license checkbox cannot establish authorship, and operating a public upload queue would create avoidable copyright and moderation risk.
 
 Maintainers select audio from a deliberately narrow set of sources with independently verifiable rights, retain provenance records, and publish only the files needed by the mod. At present the intended baseline is selected material from Kenney's CC0 asset collections. The whole upstream collection will not be redistributed.
+
+The current development catalog is only 42 selected files (approximately 390 KiB) from five Kenney source packs. Exact selection provenance is recorded in [`sources/kenney-core-selection.json`](sources/kenney-core-selection.json), and the corresponding upstream license notices are retained under [`licenses/kenney/`](licenses/kenney/).
 
 Documentation, validation, release tooling, captions, and corrections are still welcome; see [CONTRIBUTING.md](CONTRIBUTING.md). Use the content-problem issue form to report a technical, attribution, or rights concern about something already published.
 

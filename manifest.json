@@ -3,9 +3,1009 @@
   "manifestVersion": 1,
   "pack": {
     "id": "zeep-prop-hunt-audio-core",
-    "version": "0.0.0-dev",
+    "version": "0.1.0-dev",
     "channel": "development"
   },
-  "assets": [],
-  "events": {}
+  "assets": [
+    {
+      "id": "disguise.apply.phaser_up2",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/apply/phaser_up2.ogg",
+      "sha256": "587c6d781be3c6544d8ea14ee75eae7fdb45b1e8b91b8b59f19c065ebedf350d",
+      "bytes": 12340,
+      "durationMs": 360,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Digital Audio",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.apply.phaser_up4",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/apply/phaser_up4.ogg",
+      "sha256": "c86bda360b87523ee6788777d917dbba8cb7075f6bfe40b977f77564201b0b3f",
+      "bytes": 11028,
+      "durationMs": 290,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Digital Audio",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.apply.phaser_up6",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/apply/phaser_up6.ogg",
+      "sha256": "e79b0f2f5f91badf46e07d75f559304ec4d83549f3af9f5fab7656e00bbc73b4",
+      "bytes": 10708,
+      "durationMs": 279,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Digital Audio",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.apply.phaser_up7",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/apply/phaser_up7.ogg",
+      "sha256": "c829281743a6e019356c9ee40146e9ee487d12d68611f3c6d7e2fa3dc9b5ec49",
+      "bytes": 10858,
+      "durationMs": 302,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Digital Audio",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.preview.select_005",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/preview/select_005.ogg",
+      "sha256": "6e596518ae6d1bf3ec957f014bfd151a86efce51aed7047f18ac9e36bb391558",
+      "bytes": 8848,
+      "durationMs": 383,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.preview.select_006",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/preview/select_006.ogg",
+      "sha256": "24168541b68b8d1b2246b1b713bdc86d61cdfe8d2bf10d18f566dab9eab462b1",
+      "bytes": 10182,
+      "durationMs": 1944,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.preview.select_007",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/preview/select_007.ogg",
+      "sha256": "31c30a57765d51371e8505c2adc48e5cc4fff18566e3284463706a66b4a7b263",
+      "bytes": 8678,
+      "durationMs": 47,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.preview.select_008",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/preview/select_008.ogg",
+      "sha256": "3620adc320ac310607495580e2b051cc1f40e981c60d7c33574fb0784256a1b9",
+      "bytes": 8437,
+      "durationMs": 47,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.remove.phaser_down1",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/remove/phaser_down1.ogg",
+      "sha256": "99c882e4127824ca46c2be673360dd612e4417a45e7a67dd907bac89dc012801",
+      "bytes": 13510,
+      "durationMs": 418,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Digital Audio",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "disguise.remove.phaser_down3",
+      "category": "disguise",
+      "role": "none",
+      "file": "audio/disguise/remove/phaser_down3.ogg",
+      "sha256": "9dbb0106337beb2a85c7f04f31064b6f9990a6dac2a206d876f4a49f6e990b2d",
+      "bytes": 14297,
+      "durationMs": 430,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Digital Audio",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.glass.impact_glass_light_000",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/glass/impact_glass_light_000.ogg",
+      "sha256": "518b3ca93556b42d330d20334cf6bad51d3b371bd3cf7b731f34ead41b5a0112",
+      "bytes": 8607,
+      "durationMs": 210,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.glass.impact_glass_light_003",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/glass/impact_glass_light_003.ogg",
+      "sha256": "2a80cf5619ebbebbacdad212d85813f08af889343eaba91f0156081dc3945bc4",
+      "bytes": 8699,
+      "durationMs": 210,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.glass.impact_glass_light_004",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/glass/impact_glass_light_004.ogg",
+      "sha256": "aff091a74c44a7d8ba67674c93f70a0e48981730bcaa10d92621ccd0ca105d37",
+      "bytes": 8722,
+      "durationMs": 210,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.metal.impact_metal_light_001",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/metal/impact_metal_light_001.ogg",
+      "sha256": "f092b75cc53083af839dc72e245d6b0daea6cd417a9abf707c67d91348483bce",
+      "bytes": 9048,
+      "durationMs": 252,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.metal.impact_metal_light_002",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/metal/impact_metal_light_002.ogg",
+      "sha256": "0d9cc7901cbd5cea390cfff2c2efdfc9bffe14b21e169ad56f25211ee66bd48a",
+      "bytes": 8885,
+      "durationMs": 236,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.metal.impact_metal_light_004",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/metal/impact_metal_light_004.ogg",
+      "sha256": "0d9d386ceea1ddec86946556f71f181794f7e961bd0a62c9a1fd1c0b291346ba",
+      "bytes": 8756,
+      "durationMs": 213,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.prop.impact_soft_medium_000",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/prop/impact_soft_medium_000.ogg",
+      "sha256": "976b7a3ff7f6181a72704836a225a3fce938b1058a574b66801f17a4d61dce06",
+      "bytes": 7432,
+      "durationMs": 118,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.prop.impact_soft_medium_002",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/prop/impact_soft_medium_002.ogg",
+      "sha256": "3c1fce0d7b26e958f4887ffd9edc2d087dc477e81147750e79422ca1535cfa5a",
+      "bytes": 7439,
+      "durationMs": 135,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.prop.impact_soft_medium_004",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/prop/impact_soft_medium_004.ogg",
+      "sha256": "3b2d3d29f728d4509dd9470ac4c62f86fcd81c969d9528fce66bdc2ed8c3dd1d",
+      "bytes": 7519,
+      "durationMs": 147,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.wood.impact_wood_medium_000",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/wood/impact_wood_medium_000.ogg",
+      "sha256": "1b3ac1595f7315cdb50df25865fb73a1e34ac0bd94f9c675f010a22652697825",
+      "bytes": 8656,
+      "durationMs": 333,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.wood.impact_wood_medium_001",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/wood/impact_wood_medium_001.ogg",
+      "sha256": "2e41f88be0f1f3697d52d9403126939974d96d78fbea358f7d556deda25eb4a5",
+      "bytes": 8636,
+      "durationMs": 333,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.wood.impact_wood_medium_003",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/wood/impact_wood_medium_003.ogg",
+      "sha256": "c0d3617b286e71d8c94ae2da684e19e0019a4260c5debf64e79f5cd5aed3c773",
+      "bytes": 8679,
+      "durationMs": 333,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.wood.impact_wood_medium_004",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/wood/impact_wood_medium_004.ogg",
+      "sha256": "5e680008257e62c410b88a983f3a44896c7a8e71403c4f27c72509d38c658fb5",
+      "bytes": 8562,
+      "durationMs": 333,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.world.impact_generic_light_000",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/world/impact_generic_light_000.ogg",
+      "sha256": "cbf986108a30f9bd2575094062e4e217b9f1401aba194d90c7a379a3d59d25e0",
+      "bytes": 7908,
+      "durationMs": 139,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.world.impact_generic_light_002",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/world/impact_generic_light_002.ogg",
+      "sha256": "5a768fd3a6a37ab0643378e98f8873765110125a8525e45df6c5b8e6a2947415",
+      "bytes": 7876,
+      "durationMs": 140,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "impact.world.impact_generic_light_003",
+      "category": "impact",
+      "role": "none",
+      "file": "audio/impact/world/impact_generic_light_003.ogg",
+      "sha256": "318582b411933cf3f4fdb2f6106491e7945211a75ed7ecca9f4e8ddd7863e762",
+      "bytes": 7873,
+      "durationMs": 138,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Impact Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "round.hiding_start.female_ready",
+      "category": "round",
+      "role": "none",
+      "file": "audio/round/hiding_start/female_ready.ogg",
+      "sha256": "5729a74820438fb4fe28956c5fb788ae39be9a3da5d34407f11d979ecdfb2454",
+      "bytes": 9379,
+      "durationMs": 497,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Voiceover Pack",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": "Ready",
+      "caption": "Ready",
+      "tags": [
+        "kenney",
+        "spoken",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "round.hiding_start.male_ready",
+      "category": "round",
+      "role": "none",
+      "file": "audio/round/hiding_start/male_ready.ogg",
+      "sha256": "5e638cd62de96ac77295c5d7213900f65fac4d1be5b2e06a9e9fbd10382f49ba",
+      "bytes": 7644,
+      "durationMs": 691,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Voiceover Pack",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": "Ready",
+      "caption": "Ready",
+      "tags": [
+        "kenney",
+        "spoken",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "round.local_win.female_you_win",
+      "category": "round",
+      "role": "none",
+      "file": "audio/round/local_win/female_you_win.ogg",
+      "sha256": "b1f27021889625fca6771cf07ed25d72aea32073c5fdc58b9f2aa8a7c076a6c9",
+      "bytes": 12799,
+      "durationMs": 940,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Voiceover Pack",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": "You win",
+      "caption": "You win",
+      "tags": [
+        "kenney",
+        "spoken",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "round.local_win.male_you_win",
+      "category": "round",
+      "role": "none",
+      "file": "audio/round/local_win/male_you_win.ogg",
+      "sha256": "7e13d1368e1e703efdc8a406fadf020f73ae5c372cd711ae56d2cfdaa155a41a",
+      "bytes": 9533,
+      "durationMs": 1008,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Voiceover Pack",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": "You win",
+      "caption": "You win",
+      "tags": [
+        "kenney",
+        "spoken",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "round.seeking_start.female_go",
+      "category": "round",
+      "role": "none",
+      "file": "audio/round/seeking_start/female_go.ogg",
+      "sha256": "dccd4a72e26df000f254986804b04bf14c935bfe5a82fe40b556c2db5157e5e7",
+      "bytes": 10352,
+      "durationMs": 597,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Voiceover Pack",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": "Go",
+      "caption": "Go",
+      "tags": [
+        "kenney",
+        "spoken",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "round.seeking_start.male_go",
+      "category": "round",
+      "role": "none",
+      "file": "audio/round/seeking_start/male_go.ogg",
+      "sha256": "0da8dd08a2a354d03d7efe95a07a6156c5ed7466e4d4b84603d1e59cbb39afeb",
+      "bytes": 7537,
+      "durationMs": 654,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Voiceover Pack",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": "Go",
+      "caption": "Go",
+      "tags": [
+        "kenney",
+        "spoken",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "ui.accept.confirmation_001",
+      "category": "ui",
+      "role": "none",
+      "file": "audio/ui/accept/confirmation_001.ogg",
+      "sha256": "1d59821014076adf376ae092a556ff7ee4816f5532a8ae0719b6d44d244bfbc1",
+      "bytes": 11066,
+      "durationMs": 290,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "ui.back.back_004",
+      "category": "ui",
+      "role": "none",
+      "file": "audio/ui/back/back_004.ogg",
+      "sha256": "0d25a09e2316cd743a1ee368d8c699f093af94e340249688b17f7cc14759a9c9",
+      "bytes": 9021,
+      "durationMs": 73,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "ui.error.error_004",
+      "category": "ui",
+      "role": "none",
+      "file": "audio/ui/error/error_004.ogg",
+      "sha256": "88004b4a2e19714c1e7c42a5e01b1b19e4df5262a7b94a950ddd13571bfabff3",
+      "bytes": 8474,
+      "durationMs": 103,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "ui.error.error_006",
+      "category": "ui",
+      "role": "none",
+      "file": "audio/ui/error/error_006.ogg",
+      "sha256": "b1a3f4cf361f6997fd0d71074fa961689fc7fdab71d91e8cdaaeca4c09528fcc",
+      "bytes": 10369,
+      "durationMs": 500,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "ui.error.error_008",
+      "category": "ui",
+      "role": "none",
+      "file": "audio/ui/error/error_008.ogg",
+      "sha256": "e5d4c5b36e738eeb55ee9c8deffd526af313623e50580a096302021c4e138268",
+      "bytes": 11313,
+      "durationMs": 139,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "ui.ready.toggle_004",
+      "category": "ui",
+      "role": "none",
+      "file": "audio/ui/ready/toggle_004.ogg",
+      "sha256": "e34078e6dfb313935dbc1c1b157c38bc27cdec879dccbabdc6830a9bfdae6108",
+      "bytes": 8793,
+      "durationMs": 66,
+      "channels": 1,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Interface Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "non-positional"
+      ]
+    },
+    {
+      "id": "weapon.fire.laser_small_000",
+      "category": "weapon",
+      "role": "none",
+      "file": "audio/weapon/fire/laser_small_000.ogg",
+      "sha256": "b2f1282f7c8362fb5b71f15a5e910fa7019151e13d1c81eb80f18b43e60948f7",
+      "bytes": 9367,
+      "durationMs": 239,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Sci-Fi Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "weapon.fire.laser_small_001",
+      "category": "weapon",
+      "role": "none",
+      "file": "audio/weapon/fire/laser_small_001.ogg",
+      "sha256": "7603172ea05332c38fa1bd9a89a8e1c4e9cffd92f612c32fffbbbb56e6b2c5d1",
+      "bytes": 9529,
+      "durationMs": 247,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Sci-Fi Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "weapon.fire.laser_small_002",
+      "category": "weapon",
+      "role": "none",
+      "file": "audio/weapon/fire/laser_small_002.ogg",
+      "sha256": "10251c33964c538b3575f2c72917cc599685b39d08e876da984f116128bd75fa",
+      "bytes": 11054,
+      "durationMs": 344,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Sci-Fi Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    },
+    {
+      "id": "weapon.fire.laser_small_003",
+      "category": "weapon",
+      "role": "none",
+      "file": "audio/weapon/fire/laser_small_003.ogg",
+      "sha256": "b453ab4e0b6d8bfbaef5154c886613ab6844155f43aa50e6621bd03d7171864b",
+      "bytes": 10260,
+      "durationMs": 300,
+      "channels": 2,
+      "sampleRateHz": 44100,
+      "author": "Kenney",
+      "license": "CC0-1.0",
+      "source": "Kenney Game Assets All-in-1 3.6.0 / Sci-Fi Sounds",
+      "attribution": "Kenney (CC0); attribution is appreciated but not required.",
+      "transcript": null,
+      "caption": null,
+      "tags": [
+        "kenney",
+        "sound-effect",
+        "positional"
+      ]
+    }
+  ],
+  "events": {
+    "disguise.apply": [
+      "disguise.apply.phaser_up2",
+      "disguise.apply.phaser_up4",
+      "disguise.apply.phaser_up6",
+      "disguise.apply.phaser_up7"
+    ],
+    "disguise.preview": [
+      "disguise.preview.select_005",
+      "disguise.preview.select_006",
+      "disguise.preview.select_007",
+      "disguise.preview.select_008"
+    ],
+    "disguise.remove": [
+      "disguise.remove.phaser_down1",
+      "disguise.remove.phaser_down3"
+    ],
+    "impact.glass": [
+      "impact.glass.impact_glass_light_000",
+      "impact.glass.impact_glass_light_003",
+      "impact.glass.impact_glass_light_004"
+    ],
+    "impact.metal": [
+      "impact.metal.impact_metal_light_001",
+      "impact.metal.impact_metal_light_002",
+      "impact.metal.impact_metal_light_004"
+    ],
+    "impact.prop": [
+      "impact.prop.impact_soft_medium_000",
+      "impact.prop.impact_soft_medium_002",
+      "impact.prop.impact_soft_medium_004"
+    ],
+    "impact.wood": [
+      "impact.wood.impact_wood_medium_000",
+      "impact.wood.impact_wood_medium_001",
+      "impact.wood.impact_wood_medium_003",
+      "impact.wood.impact_wood_medium_004"
+    ],
+    "impact.world": [
+      "impact.world.impact_generic_light_000",
+      "impact.world.impact_generic_light_002",
+      "impact.world.impact_generic_light_003"
+    ],
+    "round.hiding_start": [
+      "round.hiding_start.female_ready",
+      "round.hiding_start.male_ready"
+    ],
+    "round.local_win": [
+      "round.local_win.female_you_win",
+      "round.local_win.male_you_win"
+    ],
+    "round.seeking_start": [
+      "round.seeking_start.female_go",
+      "round.seeking_start.male_go"
+    ],
+    "ui.accept": [
+      "ui.accept.confirmation_001"
+    ],
+    "ui.back": [
+      "ui.back.back_004"
+    ],
+    "ui.error": [
+      "ui.error.error_004",
+      "ui.error.error_006",
+      "ui.error.error_008"
+    ],
+    "ui.ready": [
+      "ui.ready.toggle_004"
+    ],
+    "weapon.fire": [
+      "weapon.fire.laser_small_000",
+      "weapon.fire.laser_small_001",
+      "weapon.fire.laser_small_002",
+      "weapon.fire.laser_small_003"
+    ]
+  }
 }

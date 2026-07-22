@@ -4,7 +4,41 @@ Source inspected: **Kenney Game Assets All-in-1 3.6.0**.
 
 The local collection contains 1,342 OGG audio files across 15 dedicated audio packs, plus a small number embedded in visual-asset packs. The `License.txt` files in each shortlisted source pack identify the work as Creative Commons Zero (CC0). The release repository should still credit Kenney and retain exact pack/version/source metadata even though attribution is not mandatory.
 
-No Kenney audio has been added to the public pack yet. This document narrows the collection to coherent families and provides a listening workflow before final selection.
+The completed listening review selected a deliberately small development catalog. This document records both the candidate rationale and result; no stable public pack has been released yet.
+
+## Completed review result
+
+All 115 shortlisted candidates were reviewed on 2026-07-22:
+
+- **42 approved** across 16 gameplay events;
+- **73 rejected** as poor fits for Prop Hunt;
+- **0 reassigned** to alternate purposes;
+- **0 left unreviewed**.
+
+The approved catalog contains:
+
+| Event | Approved variants |
+| --- | ---: |
+| `disguise.apply` | 4 |
+| `disguise.preview` | 4 |
+| `disguise.remove` | 2 |
+| `impact.glass` | 3 |
+| `impact.metal` | 3 |
+| `impact.prop` | 3 |
+| `impact.wood` | 4 |
+| `impact.world` | 3 |
+| `round.hiding_start` | 2 |
+| `round.local_win` | 2 |
+| `round.seeking_start` | 2 |
+| `ui.accept` | 1 |
+| `ui.back` | 1 |
+| `ui.error` | 3 |
+| `ui.ready` | 1 |
+| `weapon.fire` | 4 |
+
+All proposed Kenney taunts were rejected, so the core taunt groups intentionally remain empty. The nine long Digital Audio laser candidates were also rejected for excessive reverb; four shorter `Sci-Fi Sounds/laserSmall` variants form the selected weapon family.
+
+The exact approved source-to-ID mapping is in [`../sources/kenney-core-selection.json`](../sources/kenney-core-selection.json). The imported OGG files preserve the exact reviewed bytes for development and in-game mix testing. They can be normalized or converted before the first immutable public release, but any processing must receive another listening pass and regenerate the manifest hashes.
 
 ## Proposed audio direction
 
@@ -77,3 +111,16 @@ The tool verifies every selected pack's bundled CC0 license, copies only the sho
 - Foley is reserved for later prop-specific movement polish.
 - Realistic/military Voiceover phrases are excluded unless they fit the final playful tone.
 - Music loops, casino sounds, and unrelated RPG/environmental sounds are out of scope for the core gameplay pass.
+
+## Reproducing the reviewed development catalog
+
+Given the same local Kenney collection and exported review file:
+
+```powershell
+python tools/import_kenney_review.py `
+  --review "C:\path\to\kenney-audio-review.json" `
+  --kenney-root "D:\Kenney Assets\Kenney Game Assets All-in-1 3.6.0"
+python tools/validate_manifest.py
+```
+
+The importer includes approved and alternate-purpose decisions, ignores rejected candidates, copies only selected source files, retains the relevant CC0 notices, measures every output, and generates the manifest event arrays and sanitized selection record. It refuses to overwrite an existing output with different bytes.
