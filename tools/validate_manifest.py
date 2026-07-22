@@ -114,6 +114,23 @@ def validate() -> list[str]:
     if unlisted:
         fail(errors, "unlisted release audio: " + ", ".join(sorted(unlisted)))
 
+    events = manifest.get("events")
+    if not isinstance(events, dict):
+        fail(errors, "events must be an object")
+    else:
+        for event_id, variants in events.items():
+            if not isinstance(event_id, str) or not ID_PATTERN.fullmatch(event_id):
+                fail(errors, f"invalid event id: {event_id!r}")
+                continue
+            if not isinstance(variants, list) or not variants:
+                fail(errors, f"event {event_id} must have at least one variant")
+                continue
+            if len(variants) != len(set(variants)):
+                fail(errors, f"event {event_id} contains duplicate variants")
+            for variant in variants:
+                if not isinstance(variant, str) or variant not in seen_ids:
+                    fail(errors, f"event {event_id} references unknown asset: {variant!r}")
+
     return errors
 
 
@@ -129,4 +146,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

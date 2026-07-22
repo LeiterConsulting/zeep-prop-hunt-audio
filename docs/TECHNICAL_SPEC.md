@@ -6,6 +6,21 @@ The required multiplayer pack is `zeep-prop-hunt-audio-core`. It has a semantic 
 
 The canonical manifest contains stable IDs, relative paths, file hashes, audio properties, transcripts/captions, provenance, and licensing. The pack's root identity is the SHA-256 digest of the canonical release manifest bytes. Public releases also carry a detached manifest signature verified with a public key embedded in the Modkist plugin package.
 
+The top-level `events` object maps a semantic gameplay event to an array of asset IDs. Arrays provide variation without changing game code or pretending that every event needs a unique sample. Selection is equal-probability initially; weighting and no-immediate-repeat state can be added without changing the underlying asset IDs. For networked positional events, the host selects the concrete asset ID and broadcasts that choice.
+
+```json
+{
+  "events": {
+    "impact.prop": [
+      "impact.prop.soft_01",
+      "impact.prop.soft_02",
+      "impact.prop.soft_03"
+    ],
+    "ui.accept": ["ui.accept.confirm_01", "ui.accept.confirm_02"]
+  }
+}
+```
+
 ## Stable IDs
 
 IDs use lowercase dot-separated segments:
@@ -30,7 +45,7 @@ An ID must never contain a path, extension, pack version, user-supplied absolute
 - Loudness is normalized consistently by event family, with measured values recorded in the manifest.
 - Avoid baked spatial effects on sounds FMOD will position in 3D.
 
-Lossless masters may move to Git LFS before binary submissions open. Built packs should be attached to GitHub Releases rather than consumed from a default-branch archive.
+Lossless masters may move to Git LFS before curated binary sources are added. Built packs should be attached to GitHub Releases rather than consumed from a default-branch archive.
 
 ## Runtime update and admission
 

@@ -1,0 +1,43 @@
+name: Published content problem
+description: Report a technical, attribution, or rights concern about content already published by the project.
+title: "[Content problem]: "
+labels:
+  - content-problem
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form is not an audio-submission channel. Do not attach or link sounds you want added to the pack.
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: Problem type
+      options:
+        - Technical playback or packaging problem
+        - Incorrect manifest metadata
+        - Caption or transcript problem
+        - Attribution or licensing concern
+        - Other published-content concern
+    validations:
+      required: true
+  - type: input
+    id: asset_id
+    attributes:
+      label: Stable asset ID or release version
+      description: Identify the existing published content without uploading another copy.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Explain the problem and provide verifiable provenance information where relevant.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I am reporting existing published content, not proposing a new audio submission.
+          required: true

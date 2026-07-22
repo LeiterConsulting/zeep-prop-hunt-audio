@@ -2,10 +2,10 @@
 
 This repository is a collection. Each audio asset retains the license identified in `manifest.json` and any associated attribution record. No repository-wide license should be interpreted as relicensing third-party audio.
 
-## Preferred licenses for new submissions
+## Curated source baseline
 
-- **CC0-1.0:** preferred for original clips when the contributor is comfortable dedicating the work to the public domain to the extent legally possible.
-- **CC-BY-4.0:** accepted when the contributor requires attribution and permits redistribution, modification, and commercial use under the license terms.
+- **CC0-1.0:** preferred for curated source collections because it permits the required processing and redistribution with minimal ambiguity.
+- **CC-BY-4.0:** technically compatible when complete attribution and provenance can be carried into every release, but it requires explicit maintainer approval.
 
 Attribution requirements must be included in the manifest and distributed with every built pack.
 
@@ -19,9 +19,8 @@ Attribution requirements must be included in the manifest and distributed with e
 - synthetic or cloned voices that imitate an identifiable person or protected character;
 - audio whose generation service terms do not permit the required redistribution.
 
-## Contributor attestation
+## No public audio submissions
 
-Every audio pull request must identify the author, source, license, and submission issue. The submitter attests that the information is accurate and that they are authorized to offer the asset under those terms.
+The project does not rely on contributor attestations as proof of ownership and does not accept unsolicited audio files. Maintainers add assets only from pre-approved sources after verifying the upstream license and retaining a provenance record.
 
 This document is project policy, not legal advice. The maintainers may request additional evidence or reject legally ambiguous material even when a submitter believes it is usable.
-

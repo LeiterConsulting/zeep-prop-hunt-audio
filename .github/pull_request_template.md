@@ -1,24 +1,14 @@
 ## What changed
 
-<!-- Describe the submitted audio or repository change. -->
+<!-- Describe the documentation, validation, tooling, caption, or correction change. -->
 
-## Submission issue
+## Related issue
 
 Closes #
 
-## Rights and provenance
+## Checks
 
-- Author/performer:
-- Source:
-- License:
-- Required attribution:
-
-## Audio checks
-
-- [ ] Lossless master is included in the appropriate category.
-- [ ] `manifest.json` contains a complete, stable-ID entry.
-- [ ] Spoken content has an accurate transcript and caption.
-- [ ] Synthetic generation/processing and applicable terms are disclosed.
-- [ ] I listened to the final asset for clipping, excessive silence, and repetition fatigue.
-- [ ] I am authorized to submit and redistribute every included asset under its declared license.
-
+- [ ] This pull request does not contain or link an unsolicited audio submission.
+- [ ] I ran `python tools/validate_manifest.py` when the manifest or catalog is affected.
+- [ ] Existing released asset bytes and stable IDs are not silently replaced.
+- [ ] Documentation links and commands affected by this change were checked.
